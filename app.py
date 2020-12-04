@@ -41,3 +41,7 @@ def hello():
 		return {
 				"Predicted class": target_names[predicted[0]]
 				}
+
+
+if __name__ == "__main__":
+    app.run()
